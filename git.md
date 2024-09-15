@@ -26,14 +26,14 @@
     - **"Detached HEAD"** 狀態指的是 `HEAD` 直接指向一個特定的 commit 而不是分支，這種狀態下的修改如果不創建新的分支將無法保存到版本歷史中。
 ### 紀錄在 git repo 操作過程中，.git 檔案夾裡的變化，看看你可以觀察到什麼
 #### Step1. 從遠端github repo clone 到本地端 (遠端repo 已經含有初始README.md)
-![step1](./git_repo_images/after_clone.png)
+> ![step1](./git_repo_images/after_clone.png)
 #### Step2. 修改 README.md 
-![step2](./git_repo_images/after_first_add&commit&push.png)
+> ![step2](./git_repo_images/after_first_add&commit&push.png)
 ### Step3. 新增video.md 
 ### Step4. 新增git.md 
-![step4-1](./git_repo_images/after_3nd_add.png)
-![step4-2](./git_repo_images/after_3rd_add&commit.png)
-![step4-3](./git_repo_images/after_3rd_add&commit&push.png)
+> ![step4-1](./git_repo_images/after_3nd_add.png)
+> ![step4-2](./git_repo_images/after_3rd_add&commit.png)
+> ![step4-3](./git_repo_images/after_3rd_add&commit&push.png)
 
 ### commit message 應該怎麼寫比較好？應該有什麼 `style` 嗎？
 - commit message和程式註解蠻像的 → commit message 最好能有why & what
