@@ -30,9 +30,10 @@
 #### Step2. 修改 README.md 
 ![step2](./git_repo_images/after_first_add&commit&push.png)
 ### Step3. 新增video.md 
-![step3](./git_repo_images/after_add_video_md.png)
 ### Step4. 新增git.md 
-![step4](./git_repo_images/after_add_git_md.png)
+![step4-1](./git_repo_images/after_3nd_add.png)
+![step4-2](./git_repo_images/after_3rd_add&commit.png)
+![step4-3](./git_repo_images/after_3rd_add&commit&push.png)
 
 ### commit message 應該怎麼寫比較好？應該有什麼 `style` 嗎？
 - commit message和程式註解蠻像的 → commit message 最好能有why & what
