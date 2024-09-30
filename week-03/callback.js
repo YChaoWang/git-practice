@@ -1,3 +1,4 @@
+// Callback 練習
 function doJob(job, time, cb) {
     setTimeout(() => {
       // 只有在這裡，才能知道這個非同步的 setTimeout 已經做完事情了
