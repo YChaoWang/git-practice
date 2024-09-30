@@ -69,19 +69,26 @@ Q: 更多寫法?
 將n轉成字串後，用split分割成陣列
 <方法二>
 使用Array.from() 去生成數字陣列，陣列的length為n
+<方法三>
+使用rest operator 將n轉成陣列
 */
 // 三、將 n 轉成字串後，用 split 分割成陣列，
 // 再用 reduce 實作 sum
-function sum_to_array_reduce(n) {
+function sum(n) {
     return n.toString().split('').reduce((accumulator, currentValue) => accumulator + parseInt(currentValue), 0);
 }
 
-console.log(sum_to_array_reduce(5)); // 15
+console.log(sum(5)); // 15
 
 // 四、使用 Array.from() 去生成數字陣列，陣列的 length 為 n
 // 再用 reduce 實作 sum
 function sum(n) {
     return Array.from({ length: n }, (_, i) => i + 1).reduce((a, b) => a + b, 0);
+}
+
+//五、使用rest operator 將轉換後的陣列中的元素取出
+function sum(...args) {
+    return args.reduce((a, b) => a + b, 0);
 }
 
 console.log(sum(10)); // 55
