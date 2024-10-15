@@ -147,7 +147,7 @@ Nginx 預設會將日誌檔案記錄在以下兩個位置：
 **問題會再更新**
 ### 11. 列出完成本作業時參考的資料
 <https://nginx.org/>  
-[Nginx是什麼?]  
+[Nginx 是什麼?]  
 [AWS EC2 上部署 Docker、Nginx、反向代理設定(https)使用紀錄; Deploy Docker, Nginx with https reverse proxy on AWS EC2 step by step.]  
 [definition負載均衡算法]  
 [Apache和Nginx設定]  
@@ -156,7 +156,7 @@ Nginx 預設會將日誌檔案記錄在以下兩個位置：
 ### 12. (optional) 如果你很初學，不放心自己的過程是否正確，可以紀錄過程，我會盡量幫忙看
 
 
-[Nginx 是什麼]: https://www.explainthis.io/zh-hant/swe/why-nginx
+[Nginx 是什麼?]: https://www.explainthis.io/zh-hant/swe/why-nginx
 [AWS EC2 上部署 Docker、Nginx、反向代理設定(https)使用紀錄; Deploy Docker, Nginx with https reverse proxy on AWS EC2 step by step.]: https://www.lidosblog.com/article/3
 [definition負載均衡算法]: https://www.taohui.pub/2021/02/08/nginx/%E6%B7%B1%E5%85%A5%E5%89%96%E6%9E%90Nginx%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E7%AE%97%E6%B3%95/
 [什麼是AWSec2]: https://docs.aws.amazon.com/zh_tw/AWSEC2/latest/UserGuide/concepts.html
